@@ -1,0 +1,19 @@
+{
+  "name": "qixi",
+  "version": "1.0.0",
+  "description": "html5 动画之七夕节",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xtylovesyj/QiXi.git"
+  },
+  "author": "yaojun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xtylovesyj/QiXi/issues"
+  },
+  "homepage": "https://github.com/xtylovesyj/QiXi#readme"
+}

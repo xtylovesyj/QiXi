@@ -1,0 +1,168 @@
+.page2{
+
+	width:100%;
+	height: 100%;
+	background-image: url('../imgs/page2.png');
+	position:relative;
+	background-size: 100% 100%;
+}
+
+.cloud1{
+	width: 100%;
+	height: 100%;
+	background-image: url('../imgs/cloud1.png');
+	position: absolute;
+	background-repeat: no-repeat;
+	left:30%;
+	top:1%;
+}
+
+.cloud2{
+	width: 100%;
+	height: 100%;
+	background-image: url('../imgs/cloud2.png');
+	position: absolute;
+	background-repeat: no-repeat;
+	left:70%;
+	top:1%;
+}
+
+@keyframes cloudRun{
+
+	0%{
+		transform:translate(5%,0);
+	}
+
+	100%{
+		transform:translate(-5%,0);
+	}
+}
+
+@-webkit-keyframes cloudRun{
+
+	0%{
+		transform:translate(5%,0);
+	}
+
+	100%{
+		transform:translate(-5%,0);
+	}
+}
+
+@-moz-keyframes cloudRun{
+
+	0%{
+		transform:translate(5%,0);
+	}
+
+	100%{
+		transform:translate(-5%,0);
+	}
+}
+
+@-o-keyframes cloudRun{
+
+	0%{
+		transform:translate(5%,0);
+	}
+
+	100%{
+		transform:translate(-5%,0);
+	}
+}
+
+.cloudRun{
+
+	animation-name:cloudRun;
+	animation-duration:5000ms;
+	animation-iteration-count:infinite;
+	animation-timing-function:'linear';
+	animation-direction:alternate;
+
+	-webkit-animation-name:cloudRun;
+	-webkit-animation-duration:5000ms;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-timing-function:'linear';
+	-webkit-animation-direction:alternate;
+
+	-moz-animation-name:cloudRun;
+	-moz-animation-duration:5000ms;
+	-moz-animation-iteration-count:infinite;
+	-moz-animation-timing-function:'linear';
+	-moz-animation-direction:alternate;
+
+	-o-animation-name:cloudRun;
+	-o-animation-duration:5000ms;
+	-o-animation-iteration-count:infinite;
+	-o-animation-timing-function:'linear';
+	-o-animation-direction:alternate;
+}
+
+.shop{
+	position: absolute;
+    width: 12.8%;
+    top: 51.2%;
+    height: 23.5%;
+    overflow: hidden;
+    left: 52%;
+    background-color: #ddd;
+}
+
+.door-left,
+.door-right {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+}
+
+
+.door-left {
+    left: 0%;
+    background: url('../imgs/door-left.png');
+    background-size: 100% 100%;
+}
+
+.door-right {
+    left: 50%;
+    background: url('../imgs/door-right.png');
+    background-size: 100% 100%;
+}
+
+.bird{
+
+	width: 6%;
+	height: 50%;
+	position: absolute;
+	left:90%;
+	top:8%;
+	background-image: url('../imgs/bird.png');
+	background-position: -182px 0px; 
+	background-repeat: no-repeat;
+}
+
+
+@-webkit-keyframes birdFly{
+
+	
+	0% { 
+		background-position: -182px 0px;
+	 }
+    50% {
+    	background-position: 0px 0px;
+    }
+    75% {
+    	background-position: -91px 0px;
+    }
+    100% {
+    	background-position: -182px 0px;
+    }
+
+}
+
+.birdFly{
+
+	-webkit-animation-name:birdFly;
+	-webkit-animation-duration:950ms;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-timing-function:step-start;
+}
