@@ -4,6 +4,11 @@ var page1 = require('./page1');
 var page2 = require('./page2');
 var page3 = require('./page3');
 var boys = require('./boys');
+import '../style/boy.scss';
+import '../style/frame.scss';
+import '../style/page1.scss';
+import '../style/page2.scss';
+import '../style/page3.scss';
 
 $('.baidong').click(function(){
 
